@@ -6,7 +6,7 @@ pipeline
 		 stage ('Checkout') {
 		 steps {
 		 
-		git 'https://github.com/srikarimmidisetty/trail.git'
+		git 'https://github.com/srikarimmidisetty/trail1.git'
 		}
 		}
 		}
