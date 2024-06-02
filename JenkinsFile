@@ -6,7 +6,7 @@ pipeline
 		 stage ('Checkout') {
 		 steps {
 		 
-		git 'https://github.com/srikarimmidisetty/trail1.git'
+ 			checkout changelog: false, poll: false, scm: scmGit(branches: [[name: '*/branch1']], extensions: [], userRemoteConfigs: [[url: 'https://github.com/srikarimmidisetty/trail1.git']])
 		}
 		}
 		}
